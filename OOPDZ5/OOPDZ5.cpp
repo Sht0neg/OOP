@@ -62,7 +62,7 @@ int main()
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
     Burger* b1 = new Burger("Чизбургер", 89, 1150, "кетчуп", "мясо");
-    Pizza* p1 = new Pizza("Маргарита", 550, 1150, "сыр, колбаса, шампиньоны, зелень", 15);
+    Pizza* p1 = new Pizza("Маргарита", 550, 1150, "сыр, колбаса, шампиньоны, зелень, помидоры", 15);
     b1->print();
     cout << endl;
     p1->print();
